@@ -13,7 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-prediction = X*theta;
+prediction = X * theta;
 error = (prediction - y).^2;
 J = sum(error)/(2*m);
 
